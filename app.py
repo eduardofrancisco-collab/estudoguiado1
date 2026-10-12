@@ -25,7 +25,7 @@ def soma():
         valor_b = float(b)
         
         # Realiza a soma matemática
-        soma_total = valor_a + valor_b
+        soma_total = valor_a - valor_b
         
         # Retorna o dicionário convertido em JSON
         return jsonify({"resultado": soma_total})
